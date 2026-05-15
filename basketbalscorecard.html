@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="basketbalscorecard.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class = "Home-title">
+                <h3 class = "title">HOME</h3>
+                <p class = "scoreboard" id = "home-score">0</p>
+            </div>
+            <div class = "Guest-title">
+                <h3 class = "title">GUEST</h3>
+                <p class = "scoreboard" id = "guest-score">0</p>
+            </div>
+        </div>
+        <div class = "home-buttons">
+            <button class="guest-home" id ="home-button1" onclick="addhomescore1()">+1</button>
+            <button class="guest-home" id ="home-button2" onclick="addhomescore2()">+2</button>
+            <button class="guest-home" id ="home-button3" onclick="addhomescore3()">+3</button>
+             <div class = "reset-home-button">
+        <button class="guest-home" id="reset-button" onclick="resetscore()">Reset Home Score</button>
+        </div>
+        </div>
+        <div class = "guest-buttons">
+            <button class="guest-home" id ="guest-button1" onclick="addguestscore1()">+1</button>
+            <button class="guest-home" id ="guest-button2" onclick="addguestscore2()">+2</button>
+            <button class="guest-home" id ="guest-button3" onclick="addguestscore3()">+3</button>
+            <div class = "reset-guest-button">
+        <button class="guest-home" id="reset-button" onclick="resetscore()">Reset Guest Score</button>
+        </div>
+        </div>
+        <script src="basketballscorecard.js"></script>
+    </body>
+</html>
