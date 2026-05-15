@@ -26,9 +26,13 @@ function addguestscore3(){
     guestScore += 3;
     guestscoreboard.textContent = guestScore;
 }  
-function resetscore(){
+function resetsguestscore(){
     guestScore = 0;
-    homeScore = 0;
     guestscoreboard.textContent = guestScore;
     homescoreboard.textContent = homeScore;
-} 
+}   
+function resethomescore(){
+    homeScore = 0;
+    homescoreboard.textContent = homeScore;
+    guestscoreboard.textContent = guestScore;
+}
